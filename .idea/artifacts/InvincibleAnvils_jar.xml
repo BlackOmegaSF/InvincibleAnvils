@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="InvincibleAnvils:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/InvincibleAnvils_jar</output-path>
+    <root id="archive" name="InvincibleAnvils.jar">
+      <element id="module-output" name="InvincibleAnvils" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/BlackOmegaUpdaterInfo.json" />
+    </root>
+  </artifact>
+</component>
