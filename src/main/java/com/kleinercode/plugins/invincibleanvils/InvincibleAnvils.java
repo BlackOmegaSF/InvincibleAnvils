@@ -14,22 +14,17 @@ public class InvincibleAnvils extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(this, this);
     }
 
-    @Override
-    public void onDisable() {
-
-    }
-
     @EventHandler
     public void anvilBreaking(AnvilDamagedEvent event) {
 
         if (event.getDamageState() == AnvilDamagedEvent.DamageState.CHIPPED || event.getDamageState() == AnvilDamagedEvent.DamageState.DAMAGED) {
             event.setDamageState(AnvilDamagedEvent.DamageState.FULL);
-            getServer().getLogger().log(Level.INFO, "Oh, no you don't! An anvil just tried to break.");
+            getLogger().log(Level.INFO, "Oh, no you don't! An anvil just tried to break.");
         }
 
         if (event.isBreaking()) {
             event.setBreaking(false);
-            getServer().getLogger().log(Level.INFO, "Oh, no you don't! An anvil just tried to break.");
+            getLogger().log(Level.INFO, "Oh, no you don't! An anvil just tried to break.");
         }
 
     }
