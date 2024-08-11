@@ -1,4 +1,4 @@
-package com.floogoobooq.blackomega.invincibleanvils;
+package com.kleinercode.plugins.invincibleanvils;
 
 import com.destroystokyo.paper.event.block.AnvilDamagedEvent;
 import org.bukkit.event.EventHandler;
