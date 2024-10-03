@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "invincible-anvils",
+  "version": "${version}",
+  "name": "Invincible Anvils",
+  "description": "A server-side mod to prevent anvils from being damaged or broken when used.",
+  "authors": [
+    "Kian Leiner"
+  ],
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "com.kleinercode.fabric.InvincibleAnvils"
+    ]
+  },
+  "mixins": [
+    "invincible-anvils.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.2",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
