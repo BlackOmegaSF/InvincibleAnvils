@@ -7,6 +7,7 @@
   "authors": [
     "Kian Leiner"
   ],
+  "icon": "assets/invincible-anvils/protected_anvil.png",
   "environment": "server",
   "entrypoints": {
     "server": [
