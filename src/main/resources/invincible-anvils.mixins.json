@@ -6,7 +6,8 @@
   "mixins": [],
   "client": [],
   "server": [
-
+    "AnvilUseDamageMixin",
+    "ForgingScreenHandlerAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
