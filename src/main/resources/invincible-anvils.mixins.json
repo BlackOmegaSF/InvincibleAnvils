@@ -1,13 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.kleinercode.fabric.mixin",
+  "package": "com.kleinercode.fabric.invincibleanvils.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [],
   "client": [],
   "server": [
-    "com.kleinercode.fabric.invincibleanvils.mixin.AnvilUseDamageMixin",
-    "com.kleinercode.fabric.invincibleanvils.mixin.ForgingScreenHandlerAccessor"
+    "AnvilUseDamageMixin",
+    "ForgingScreenHandlerAccessor"
   ],
   "injectors": {
     "defaultRequire": 1
