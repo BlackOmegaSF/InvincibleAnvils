@@ -1,4 +1,4 @@
-package com.kleinercode.fabric;
+package com.kleinercode.fabric.invincibleanvils;
 
 import net.fabricmc.api.DedicatedServerModInitializer;
 import org.slf4j.Logger;

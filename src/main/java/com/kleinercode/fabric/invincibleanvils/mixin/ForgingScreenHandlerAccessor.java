@@ -1,4 +1,4 @@
-package com.kleinercode.fabric.mixin;
+package com.kleinercode.fabric.invincibleanvils.mixin;
 
 import net.minecraft.screen.ForgingScreenHandler;
 import net.minecraft.screen.ScreenHandlerContext;

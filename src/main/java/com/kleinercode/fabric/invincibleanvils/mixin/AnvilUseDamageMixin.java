@@ -1,4 +1,4 @@
-package com.kleinercode.fabric.mixin;
+package com.kleinercode.fabric.invincibleanvils.mixin;
 
 import net.minecraft.screen.AnvilScreenHandler;
 import org.spongepowered.asm.mixin.Mixin;
